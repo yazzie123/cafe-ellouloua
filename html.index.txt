@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFÉ ELLOÜLOÜA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/7/76/Marrakech_Morocco.jpg') center/cover no-repeat;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #a05c3c;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #a05c3c;
+      margin-bottom: 20px;
+    }
+    ul.menu-list {
+      list-style: none;
+      padding: 0;
+    }
+    ul.menu-list li {
+      background-color: #f3e8dc;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #a05c3c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAFÉ ELLOÜLOÜA</h1>
+    <p>Welcome to your cozy corner near Ecole Racine Plus, Marrakech</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <ul class="menu-list">
+      <li><strong>Espresso</strong> – 15 MAD</li>
+      <li><strong>Mint Tea</strong> – 12 MAD</li>
+      <li><strong>Croissant</strong> – 10 MAD</li>
+      <li><strong>Moroccan Sandwich</strong> – 25 MAD</li>
+      <li><strong>Fresh Orange Juice</strong> – 18 MAD</li>
+      <li><strong>Chocolate Cake</strong> – 22 MAD</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>CAFÉ ELLOÜLOÜA is a local coffee shop offering the warm atmosphere of Marrakech with freshly brewed coffee, Moroccan specialties, and a quiet space to relax or work. Located beside Ecole Racine Plus, we're a favorite for students, professionals, and travelers alike. Our café blends modern comfort with Moroccan charm, serving as a peaceful stop during a busy day.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Marrakech_Medina_market.jpg" alt="Medina Market">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Marrakech_Rooftop_Cafe.jpg" alt="Rooftop Cafe View">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Jemaa_el-Fnaa%2C_Marrakech.jpg" alt="Jemaa el-Fnaa">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> PORT URBAIN IMM DES HABOUS PAV E, N 9/10/11/12 MASSIRA 1, Marrakech 40000, Morocco</p>
+    <p><strong>Phone:</strong> +212 6 00 00 00 00</p>
+    <p><strong>Email:</strong> cafe@ellouloua.ma</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CAFÉ ELLOÜLOÜA. All rights reserved
